@@ -1,0 +1,64 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 1.5%;
+    padding: 0px 100px 0px 100px;
+}
+
+.grid-container .pealkiri {
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+
+.grid-container .grid-pealdis {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+    grid-column: 1 / 3;
+    grid-row: 2;
+}
+
+.pealdis-vasak {
+    display:flex;
+    justify-content: left;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.pealdis-parem {
+    display:flex;
+    justify-content: center;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+
+.body-vasak {
+    grid-column: 1;
+    grid-row: 3;
+    border: 1px solid
+}
+
+.body-parem {
+    text-align: center;
+    grid-column: 2;
+    grid-row: 3;
+    border: 1px solid
+}
+
+.galerii {
+    width: 95%;
+    height: 95%;
+    padding:2.5%
+}
+
+.maps {
+    width: 95%;
+    height: 70%;
+    padding:2.5%
+}
+
+.fa-brands {
+    font-size: 50px;
+    padding-bottom: 1%;
+}
